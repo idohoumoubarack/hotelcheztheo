@@ -62,7 +62,7 @@
 .eau .elem-tag{color:var(--teal)}
 .terre .elem-tag{color:#a07850}
 .elem-title{font-family:var(--f1);font-size:1.6rem;font-weight:600;color:#fff;margin-bottom:.8rem;line-height:1.1}
-.elem-desc{font-size:.88rem;color:#1a3a50;line-height:1.78}
+.elem-desc{font-size:.88rem;color:#ffffff;line-height:1.78}
 
 /* ── PISCINE SPLIT ─────────────────────────────────────────── */
 .piscine-section{background:linear-gradient(160deg,var(--teal-xlight) 0%,#fff 60%);padding:7rem 0}
@@ -77,16 +77,16 @@
 .psc-val{font-family:var(--f1);font-size:1.4rem;font-weight:700;color:var(--teal);line-height:1;display:block}
 .psc-lbl{font-family:var(--f3);font-size:.58rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:#fff}
 .piscine-text h2{font-family:var(--f1);font-size:clamp(2rem,3.5vw,3.2rem);color:var(--dark);letter-spacing:-.025em;line-height:1.1;margin-bottom:1.2rem}
-.piscine-text p{font-size:1rem;color:#1a3a50;line-height:1.85;margin-bottom:1.5rem}
+.piscine-text p{font-size:1rem;color:#ffffff;line-height:1.85;margin-bottom:1.5rem}
 .piscine-feats{display:flex;flex-direction:column;gap:.7rem;margin:2rem 0}
-.pf-item{display:flex;align-items:flex-start;gap:.8rem;font-size:.94rem;color:#fff;line-height:1.6}
+.pf-item{display:flex;align-items:flex-start;gap:.8rem;font-size:.94rem;color:#000000;line-height:1.6}
 .pf-dot{width:22px;height:22px;min-width:22px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));display:flex;align-items:center;justify-content:center;margin-top:1px;font-size:.65rem;color:#fff;flex-shrink:0}
 
 /* ── SOINS SECTION ─────────────────────────────────────────── */
 .soins-section{background:var(--dark2);padding:7rem 0}
 .soins-header{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;margin-bottom:5rem}
 .soins-header h2{font-family:var(--f1);font-size:clamp(2rem,3.5vw,3.5rem);color:#fff;letter-spacing:-.025em;line-height:1.1}
-.soins-header p{font-size:1rem;color:#1a3a50;line-height:1.85}
+.soins-header p{font-size:1rem;color:#ffffff;line-height:1.85}
 .soins-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem}
 .soin-card{border-radius:28px;overflow:hidden;background:rgba(255,255,255,.03);border:1px solid rgba(110,193,228,.12);transition:.45s var(--ease)}
 .soin-card:hover{transform:translateY(-10px);box-shadow:0 28px 60px rgba(0,0,0,.35);border-color:rgba(110,193,228,.3)}
@@ -97,7 +97,7 @@
 .soin-body{padding:2rem 1.8rem 2.2rem}
 .soin-icon{font-size:1.8rem;margin-bottom:.8rem;display:block}
 .soin-name{font-family:var(--f1);font-size:1.6rem;font-weight:600;color:#fff;margin-bottom:.6rem}
-.soin-desc{font-size:.88rem;color:#1a3a50;line-height:1.75;margin-bottom:1.5rem}
+.soin-desc{font-size:.88rem;color:#ffffff;line-height:1.75;margin-bottom:1.5rem}
 .soin-price{display:flex;align-items:baseline;gap:.3rem;margin-bottom:1.4rem}
 .sp-from{font-family:var(--f3);font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:#fff}
 .sp-val{font-family:var(--f1);font-size:2rem;font-weight:700;color:var(--teal);line-height:1}
@@ -152,7 +152,7 @@
 {{-- ═══ PAGE HERO ═══════════════════════════════════════════════ --}}
 <div class="page-hero">
   <div class="ph-bg">
-    <img src="https://images.unsplash.com/photo-1540555700478-4be290a3d295?w=1920" alt="Piscine thermale — Chez Théo les Bains Possotomé">
+    <img src="https://www.occitanie-thermale.com/uploads/2020/12/station-thermale-balaruc-les-bains-bains-interieur-vue-etang-de-thau-emmanuel-morel-2018.jpg" alt="Piscine thermale — Chez Théo les Bains Possotomé">
   </div>
   <div class="ph-ov"></div>
   <div class="ph-body">

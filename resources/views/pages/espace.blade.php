@@ -73,11 +73,11 @@
 .eh-content h2.dark-h{color:var(--dark)}
 .eh-content h2.white-h{color:#fff}
 .eh-content p{font-size:1rem;line-height:1.85;margin-bottom:1rem}
-.eh-content p.dark-p{color:#fff}
+.eh-content p.dark-p{color:#000000}
 .eh-content p.white-p{color:#fff}
 .eh-feats{display:flex;flex-direction:column;gap:.55rem;margin:1.5rem 0}
 .ef-item{display:flex;align-items:center;gap:.7rem;font-size:.92rem}
-.ef-item.dark-i{color:#fff}
+.ef-item.dark-i{color:#000000}
 .ef-item.white-i{color:#fff}
 .ef-dot{width:20px;height:20px;min-width:20px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));display:flex;align-items:center;justify-content:center;font-size:.6rem;color:#fff;flex-shrink:0}
 
@@ -249,7 +249,7 @@
           </div>
           <div class="lc-body">
             <div class="lc-name">Bungalow Standard</div>
-            <div class="lc-type">Hôtel · 2 pers · dès 38€</div>
+            <div class="lc-type">Hôtel · 02 pers · dès 38€</div>
           </div>
           <div class="lc-arrow">→</div>
         </a>
@@ -261,7 +261,7 @@
           </div>
           <div class="lc-body">
             <div class="lc-name">Bungalow Deluxe</div>
-            <div class="lc-type">Hôtel · 2-3 pers · dès 74€</div>
+            <div class="lc-type">Hôtel · 02-03 pers · dès 74€</div>
           </div>
           <div class="lc-arrow">→</div>
         </a>
@@ -298,12 +298,12 @@
       <div style="display:flex;align-items:center;gap:2rem;flex-wrap:wrap;justify-content:center">
         <div style="text-align:center">
           <span style="font-family:var(--f1);font-size:2.5rem;color:var(--teal);display:block;line-height:1">200 m</span>
-          <span style="font-family:var(--f3);font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.18em;color:rgba(255,255,255,.35)">Entre les 2 espaces</span>
+          <span style="font-family:var(--f3);font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.18em;color:rgb(255, 255, 255)">Entre les 2 espaces</span>
         </div>
-        <div style="width:1px;height:40px;background:rgba(255,255,255,.1)"></div>
+        <div style="width:1px;height:40px;background:rgba(255, 255, 255, 0.1)"></div>
         <div style="text-align:center">
           <span style="font-family:var(--f1);font-size:2.5rem;color:var(--teal);display:block;line-height:1"><i data-lucide="gift" class="lucide-icon"></i></span>
-          <span style="font-family:var(--f3);font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.18em;color:rgba(255,255,255,.35)">Canoë gratuit</span>
+          <span style="font-family:var(--f3);font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.18em;color:rgb(255, 255, 255)">Canoë gratuit</span>
         </div>
       </div>
     </div>
@@ -355,12 +355,12 @@
 
         <a href="{{ route('hebergements.index') }}" class="log-card dark-card" style="text-decoration:none">
           <div class="lc-img">
-            <img src="https://images.unsplash.com/photo-1591088398332-8596b4d0ea9e?w=500" alt="Suite Standard — Le Resort Chez Théo">
+            <img src="https://www.brp.ch/fileadmin/documents/brp.ch/images/chambres-suites/tuiles/superior_room_lake_view_1.jpg?w=500" alt="Suite Standard — Le Resort Chez Théo">
             <div class="lc-ov"></div>
           </div>
           <div class="lc-body">
             <div class="lc-name">Suite Standard</div>
-            <div class="lc-type">Resort · 4 pers · dès 96€</div>
+            <div class="lc-type">Resort · 04 pers · dès 96€</div>
           </div>
           <div class="lc-arrow">→</div>
         </a>
@@ -372,14 +372,14 @@
           </div>
           <div class="lc-body">
             <div class="lc-name">Bungalow Supérieur</div>
-            <div class="lc-type">Resort · 2 pers · dès 60€</div>
+            <div class="lc-type">Resort · 02 pers · dès 60€</div>
           </div>
           <div class="lc-arrow">→</div>
         </a>
 
         <a href="{{ route('bains.index') }}" class="svc-card" style="text-decoration:none">
           <div class="sc-img">
-            <img src="https://images.unsplash.com/photo-1540555700478-4be290a3d295?w=500" alt="Spa & Massage — Le Resort Chez Théo">
+            <img src="https://naturellementluxe.com/wp-content/uploads/Copie-de-Le_Spa_Privatif-Naturellement_Luxe_Paris_FRK_302189_4_8.jpg?w=500" alt="Spa & Massage — Le Resort Chez Théo">
           </div>
           <div class="sc-body">
             <div class="sc-name">Spa & Massage</div>

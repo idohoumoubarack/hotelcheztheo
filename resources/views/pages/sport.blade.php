@@ -96,7 +96,7 @@
 .cadre-text h2{font-family:var(--f1);font-size:clamp(2rem,3.5vw,3.2rem);color:var(--dark);letter-spacing:-.025em;line-height:1.1;margin-bottom:1.2rem}
 .cadre-text p{font-size:1rem;color:#1a3a50;line-height:1.85;margin-bottom:1.2rem}
 .cadre-feats{display:flex;flex-direction:column;gap:.65rem;margin:2rem 0}
-.cf-item{display:flex;align-items:flex-start;gap:.8rem;font-size:.94rem;color:#fff;line-height:1.6}
+.cf-item{display:flex;align-items:flex-start;gap:.8rem;font-size:.94rem;color:#000000;line-height:1.6}
 .cf-dot{width:22px;height:22px;min-width:22px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));display:flex;align-items:center;justify-content:center;margin-top:1px;font-size:.65rem;color:#fff;flex-shrink:0}
 
 /* ── COMBO BAINS+SPORT ─────────────────────────────────────── */
@@ -111,7 +111,7 @@
 .cc-body{position:relative;z-index:2;padding:2rem}
 .cc-tag{font-family:var(--f3);font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.28em;color:var(--teal);display:block;margin-bottom:.5rem}
 .cc-title{font-family:var(--f1);font-size:1.6rem;font-weight:600;color:#fff;margin-bottom:.5rem}
-.cc-desc{font-size:.85rem;color:#1a3a50;line-height:1.65;margin-bottom:1rem}
+.cc-desc{font-size:.85rem;color:#ffffff;line-height:1.65;margin-bottom:1rem}
 
 /* ── CTA ───────────────────────────────────────────────────── */
 .cta-section{background:linear-gradient(135deg,var(--teal-dark),var(--teal));padding:5rem 0;text-align:center}
@@ -165,9 +165,9 @@
     <div class="av-sep"></div>
     <div class="av-item"><span class="av-icon"><i data-lucide="waves" class="lucide-icon"></i></span> Face à la piscine thermale</div>
     <div class="av-sep"></div>
-    <div class="av-item"><span class="av-icon"><i data-lucide="dumbbell" class="lucide-icon"></i></span> 5 équipements disponibles</div>
+    <div class="av-item"><span class="av-icon"><i data-lucide="dumbbell" class="lucide-icon"></i></span> 05 équipements disponibles</div>
     <div class="av-sep"></div>
-    <div class="av-item"><span class="av-icon"><i data-lucide="banknote" class="lucide-icon"></i></span> 8€ pour les visiteurs</div>
+    <div class="av-item"><span class="av-icon"><i data-lucide="banknote" class="lucide-icon"></i></span> 08€ pour les visiteurs</div>
   </div>
 </div>
 
@@ -207,7 +207,7 @@
           <div class="acces-card payant">
             <span class="ac-icon"><i data-lucide="banknote" class="lucide-icon"></i></span>
             <span class="ac-label">Visiteurs extérieurs</span>
-            <span class="ac-price">8 €</span>
+            <span class="ac-price">08 €</span>
             <span class="ac-unit">/ journée</span>
             <span class="ac-alt">~ 5 000 FCFA / jour</span>
           </div>
@@ -226,7 +226,7 @@
     <div class="tc mb8" data-r="up">
       <div class="sec-lbl" style="justify-content:center;color:var(--teal)">Ce qui vous attend</div>
       <h2 style="font-family:var(--f1);font-size:clamp(2rem,4vw,3.5rem);color:#fff;letter-spacing:-.025em;line-height:1.1">Les Équipements</h2>
-      <p style="font-size:1rem;color:#1a3a50;max-width:500px;margin:1rem auto 0;line-height:1.8">5 machines pour un entraînement complet du corps, disponibles 7j/7.</p>
+      <p style="font-size:1rem;color:#ffffff;max-width:500px;margin:1rem auto 0;line-height:1.8">5 machines pour un entraînement complet du corps, disponibles 7j/7.</p>
     </div>
 
     <div class="equip-grid">
@@ -314,7 +314,7 @@
       </div>
       <div class="combo-card" data-r="right">
         <div class="cc-bg">
-          <img src="https://images.unsplash.com/photo-1540555700478-4be290a3d295?w=900" alt="Piscine thermale Chez Théo">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.qY1XkIbBXserkkNNN95caQHaE7?cb=thfvnextfalcon2&rs=1&pid=ImgDetMain&o=7&rm=3?w=900" alt="Piscine thermale Chez Théo">
         </div>
         <div class="cc-ov"></div>
         <div class="cc-body">

@@ -18,7 +18,7 @@ class HebergementController extends Controller
                 'personnes'   => '4 – 6 personnes',
                 'prix_eur'    => '120',
                 'prix_fcfa'   => '78 000',
-                'hero_img'    => 'https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=1920',
+                'hero_img'    => 'https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1800',
                 'description' => 'Notre hébergement le plus spacieux et le plus luxueux. La Suite Supérieure offre un espace de vie exceptionnel au bord du lac Ahémé, avec une terrasse privée donnant directement sur l\'eau. Architecture traditionnelle béninoise sublimée par un confort haut de gamme.',
                 'galerie'     => [
                     'https://images.unsplash.com/photo-1631049552057-403cdb8f0658?w=800',
@@ -50,7 +50,7 @@ class HebergementController extends Controller
                 'personnes'   => '4 personnes',
                 'prix_eur'    => '96',
                 'prix_fcfa'   => '63 000',
-                'hero_img'    => 'https://images.unsplash.com/photo-1591088398332-8596b4d0ea9e?w=1920',
+                'hero_img'    => 'https://www.brp.ch/fileadmin/documents/brp.ch/images/chambres-suites/tuiles/superior_room_lake_view_1.jpg?w=1920',
                 'description' => 'La Suite Standard associe espace, confort et vue imprenable sur le lac Ahémé. Avec sa chambre double et son salon séparé, elle est idéale pour les couples ou petites familles souhaitant profiter pleinement du Resort et de la piscine à débordement.',
                 'galerie'     => [
                     'https://images.unsplash.com/photo-1591088398332-8596b4d0ea9e?w=800',

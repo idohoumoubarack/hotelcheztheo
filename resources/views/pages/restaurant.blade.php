@@ -55,7 +55,7 @@
 .espace-item:hover{background:rgba(110,193,228,.04)}
 .ei-icon{font-size:2.2rem;margin-bottom:1rem;display:block}
 .ei-title{font-family:var(--f1);font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:.6rem}
-.ei-desc{font-size:.86rem;color:rgba(255,255,255,.48);line-height:1.75}
+.ei-desc{font-size:.86rem;color:rgb(255, 255, 255);line-height:1.75}
 
 /* ── CADRE UNIQUE SPLIT ────────────────────────────────────── */
 .cadre-section{background:linear-gradient(160deg,var(--teal-xlight) 0%,#fff 60%);padding:7rem 0}
@@ -68,7 +68,7 @@
 .cadre-text h2{font-family:var(--f1);font-size:clamp(2rem,3.5vw,3.3rem);color:var(--dark);letter-spacing:-.025em;line-height:1.1;margin-bottom:1.4rem}
 .cadre-text p{font-size:1rem;color:#1a3a50;line-height:1.85;margin-bottom:1.2rem}
 .cadre-feats{display:flex;flex-direction:column;gap:.65rem;margin:2rem 0}
-.cf-item{display:flex;align-items:flex-start;gap:.8rem;font-size:.94rem;color:#fff;line-height:1.6}
+.cf-item{display:flex;align-items:flex-start;gap:.8rem;font-size:.94rem;color:#000000;line-height:1.6}
 .cf-dot{width:22px;height:22px;min-width:22px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));display:flex;align-items:center;justify-content:center;margin-top:1px;font-size:.65rem;color:#fff;flex-shrink:0}
 
 /* ── MENU APERÇU ───────────────────────────────────────────── */
@@ -81,7 +81,7 @@
 .mib-title{font-family:var(--f3);font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.25em;color:var(--teal);display:block;margin-bottom:.3rem}
 .mib-val{font-family:var(--f1);font-size:1.1rem;color:#08131e;font-weight:600}
 .menu-content h2{font-family:var(--f1);font-size:clamp(2rem,3.5vw,3.3rem);color:#fff;letter-spacing:-.025em;line-height:1.1;margin-bottom:1rem}
-.menu-content p{font-size:.94rem;color:#1a3a50;line-height:1.85;margin-bottom:2rem}
+.menu-content p{font-size:.94rem;color:#ffffff;line-height:1.85;margin-bottom:2rem}
 .menu-list{display:flex;flex-direction:column;gap:.55rem;margin-bottom:2.5rem}
 .ml-item{display:flex;align-items:center;justify-content:space-between;padding:.75rem 1.1rem;border-radius:12px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);transition:.2s ease}
 .ml-item:hover{background:rgba(110,193,228,.08);border-color:rgba(110,193,228,.2)}
@@ -120,7 +120,7 @@
 .ev-body{position:relative;z-index:2;padding:2.5rem}
 .ev-tag{font-family:var(--f3);font-size:.58rem;font-weight:700;text-transform:uppercase;letter-spacing:.28em;color:var(--teal);display:block;margin-bottom:.6rem}
 .ev-title{font-family:var(--f1);font-size:1.8rem;font-weight:600;color:#fff;margin-bottom:.8rem;line-height:1.1}
-.ev-desc{font-size:.87rem;color:#1a3a50;line-height:1.75;margin-bottom:1.4rem}
+.ev-desc{font-size:.87rem;color:#ffffff;line-height:1.75;margin-bottom:1.4rem}
 .ev-detail{display:flex;align-items:center;gap:.6rem;font-family:var(--f3);font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:#fff;margin-bottom:.4rem}
 .ev-detail span:first-child{color:var(--teal)}
 
@@ -136,7 +136,7 @@
 /* ── CTA ───────────────────────────────────────────────────── */
 .cta-section{background:var(--dark);padding:5rem 0;text-align:center;border-top:1px solid rgba(110,193,228,.08)}
 .cta-title{font-family:var(--f1);font-size:clamp(2rem,4vw,3.5rem);font-weight:600;color:#fff;margin-bottom:1rem}
-.cta-sub{font-size:1rem;color:#1a3a50;margin-bottom:2.5rem;line-height:1.7}
+.cta-sub{font-size:1rem;color:#ffffff;margin-bottom:2.5rem;line-height:1.7}
 
 /* ── RESPONSIVE ────────────────────────────────────────────── */
 @media(max-width:1024px){
@@ -340,7 +340,7 @@
         <p>Nous avons récemment développé <strong>deux bassins de pisciculture</strong> en face de nos deux espaces d'hébergement, pour bientôt proposer nos propres poissons aux clients de notre restaurant.</p>
         <div class="locale-badges">
           <div class="lb-card">
-            <span class="lb-ic">🎣</span>
+            <span class="lb-ic"></span>
             <span class="lb-title">Pêcheurs locaux</span>
             <span class="lb-desc">Partenariat direct avec les pêcheurs du village de Possotomé</span>
           </div>
@@ -350,9 +350,9 @@
             <span class="lb-desc">Crevettes et mulets pêchés le matin même pour votre repas</span>
           </div>
           <div class="lb-card">
-            <span class="lb-ic">🐟</span>
+            <span class="lb-ic"></span>
             <span class="lb-title">Pisciculture propre</span>
-            <span class="lb-desc">2 bassins de pisciculture en face des espaces d'hébergement</span>
+            <span class="lb-desc">02 bassins de pisciculture en face des espaces d'hébergement</span>
           </div>
           <div class="lb-card">
             <span class="lb-ic"><i data-lucide="leaf" class="lucide-icon"></i></span>

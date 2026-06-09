@@ -81,7 +81,7 @@
 .loc-content h2.dark-title{color:var(--dark)}
 .loc-content h2.white-title{color:#fff}
 .loc-content p{font-size:.97rem;line-height:1.85;margin-bottom:1.2rem}
-.loc-content p.dark-p{color:#fff}
+.loc-content p.dark-p{color:#000000}
 .loc-content p.white-p{color:#fff}
 
 /* ── TARIFS ────────────────────────────────────────────────── */
@@ -98,10 +98,10 @@
 .light-card .tc-price{color:var(--teal-dark)}
 .dark-card .tc-price{color:var(--teal)}
 .tc-unit{font-family:var(--f3);font-size:.68rem;font-weight:600;display:block;margin-top:.2rem}
-.light-card .tc-unit{color:#fff}
+.light-card .tc-unit{color:#000000}
 .dark-card .tc-unit{color:#fff}
 .tc-alt{font-family:var(--f3);font-size:.62rem;display:block;margin-top:.3rem}
-.light-card .tc-alt{color:#fff}
+.light-card .tc-alt{color:#000000}
 .dark-card .tc-alt{color:rgba(255,255,255,.3)}
 
 /* ── SPECS VÉHICULE ────────────────────────────────────────── */
@@ -113,7 +113,7 @@
 /* ── NOTE GRATUIT ──────────────────────────────────────────── */
 .gratuit-note{display:flex;align-items:flex-start;gap:.8rem;background:rgba(110,193,228,.08);border:1px solid rgba(110,193,228,.2);border-radius:14px;padding:1.1rem 1.3rem;margin:1.5rem 0}
 .gn-icon{font-size:1.2rem;flex-shrink:0;margin-top:.1rem}
-.gn-text{font-size:.85rem;color:#1a3a50;line-height:1.65}
+.gn-text{font-size:.85rem;color:#ffffff;line-height:1.65}
 .gn-text strong{color:var(--teal)}
 
 /* ── CTA FINAL ─────────────────────────────────────────────── */
@@ -247,7 +247,7 @@
         <div class="tarifs-grid">
           <div class="tarif-card dark-card">
             <span class="tc-label">Sans guide</span>
-            <span class="tc-price">9 €</span>
+            <span class="tc-price">09 €</span>
             <span class="tc-unit">/ jour</span>
             <span class="tc-alt">~ 6 000 FCFA / jour</span>
           </div>
@@ -314,7 +314,7 @@
 
         <div class="specs-list">
           <span class="spec-tag light"><i data-lucide="calendar" class="lucide-icon"></i> Année : 2006</span>
-          <span class="spec-tag light"><i data-lucide="armchair" class="lucide-icon"></i> 5 places</span>
+          <span class="spec-tag light"><i data-lucide="armchair" class="lucide-icon"></i> 05 places</span>
           <span class="spec-tag light"><i data-lucide="settings" class="lucide-icon"></i> Manuelle</span>
           <span class="spec-tag light">🛻 4×4 tout-terrain</span>
         </div>
@@ -352,7 +352,7 @@
 
         <div class="specs-list">
           <span class="spec-tag dark"><i data-lucide="calendar" class="lucide-icon"></i> Année : 2006</span>
-          <span class="spec-tag dark"><i data-lucide="armchair" class="lucide-icon"></i> 2 places</span>
+          <span class="spec-tag dark"><i data-lucide="armchair" class="lucide-icon"></i> 02 places</span>
           <span class="spec-tag dark"><i data-lucide="settings" class="lucide-icon"></i> Manuelle</span>
           <span class="spec-tag dark"><i data-lucide="bike" class="lucide-icon"></i> Moto légère</span>
         </div>

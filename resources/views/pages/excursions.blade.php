@@ -70,7 +70,7 @@
 .li-item:hover{background:rgba(110,193,228,.07);border-color:rgba(110,193,228,.2)}
 .li-left{display:flex;align-items:center;gap:.75rem}
 .li-dot{width:8px;height:8px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));flex-shrink:0}
-.li-name{font-family:var(--f1);font-size:1rem;color:#1a3a50;line-height:1.2}
+.li-name{font-family:var(--f1);font-size:1rem;color:#ffffff;line-height:1.2}
 .li-place{font-family:var(--f3);font-size:.6rem;font-weight:600;text-transform:uppercase;letter-spacing:.13em;color:rgba(255,255,255,.35);margin-top:.15rem}
 .li-dur{font-family:var(--f3);font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.13em;color:var(--teal);white-space:nowrap;flex-shrink:0;background:rgba(110,193,228,.1);padding:.25rem .7rem;border-radius:999px;border:1px solid rgba(110,193,228,.18)}
 
@@ -80,7 +80,7 @@
 /* ── PRIX CARD (remplace le hero image trop grand) ─────────── */
 .circuit-header{display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:start;background:var(--dark);border-radius:28px;padding:3rem 3.5rem;margin-bottom:4rem;border:1px solid rgba(110,193,228,.15)}
 .ch-title{font-family:var(--f1);font-size:clamp(2rem,4vw,3.2rem);color:#fff;letter-spacing:-.025em;line-height:1.05;margin-bottom:.8rem}
-.ch-desc{font-size:.97rem;color:#1a3a50;line-height:1.75;max-width:580px;margin-bottom:1.2rem}
+.ch-desc{font-size:.97rem;color:#ffffff;line-height:1.75;max-width:580px;margin-bottom:1.2rem}
 .ch-tags{display:flex;flex-wrap:wrap;gap:.5rem}
 .ch-tag{font-family:var(--f3);font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.14em;padding:.32rem .85rem;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);color:#fff}
 .ch-price-box{background:rgba(110,193,228,.08);border:1px solid rgba(110,193,228,.28);border-radius:22px;padding:2rem 2.2rem;text-align:center;min-width:200px;flex-shrink:0}
@@ -110,7 +110,7 @@
 .tl-day-label{font-family:var(--f3);font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.22em;color:var(--teal);display:block;margin-bottom:.4rem}
 .tl-route{font-family:var(--f1);font-size:1.3rem;font-weight:600;color:#fff;line-height:1.2;margin-bottom:1rem}
 .tl-activities{display:flex;flex-direction:column;gap:.45rem}
-.tl-act{display:flex;align-items:flex-start;gap:.6rem;font-size:.88rem;color:#1a3a50;line-height:1.6}
+.tl-act{display:flex;align-items:flex-start;gap:.6rem;font-size:.88rem;color:#ffffff;line-height:1.6}
 .tl-act::before{content:'→';color:var(--teal);font-size:.75rem;margin-top:.15rem;flex-shrink:0}
 
 /* ── CTA ───────────────────────────────────────────────────── */
@@ -153,8 +153,8 @@
     <p class="ph-sub">Explorez le Bénin avec nos guides locaux — du canoë sur le lac Ahémé aux palais royaux d'Abomey, de la Route des Esclaves d'Ouidah aux lagunes de Grand-Popo.</p>
     <div class="ph-stats">
       <div class="ph-stat"><span class="ps-val">12</span><span class="ps-lbl">Excursions locales</span></div>
-      <div class="ph-stat"><span class="ps-val">7</span><span class="ps-lbl">Jours de circuit</span></div>
-      <div class="ph-stat"><span class="ps-val">4</span><span class="ps-lbl">Villes emblématiques</span></div>
+      <div class="ph-stat"><span class="ps-val">07</span><span class="ps-lbl">Jours de circuit</span></div>
+      <div class="ph-stat"><span class="ps-val">04</span><span class="ps-lbl">Villes emblématiques</span></div>
     </div>
   </div>
 </div>
@@ -196,7 +196,7 @@
       </a>
       <a href="{{ route('excursions.show', 'marche-poterie') }}" class="exc-card" data-r="up" data-d="3" style="text-decoration:none;display:block">
         <div class="exc-img">
-          <img src="https://images.unsplash.com/photo-1567543052776-ceed90572b05?w=700" alt="Marché poterie Sé">
+          <img src="https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=700" alt="Marché poterie Sé">
           <div class="exc-img-ov"></div>
           <span class="exc-dur"><i data-lucide="clock" class="lucide-icon"></i> ½ journée</span>
           <span class="exc-loc-tag">Sé</span>
@@ -235,7 +235,7 @@
       </a>
       <a href="{{ route('excursions.show', 'refuge-tortues') }}" class="exc-card" data-r="up" data-d="6" style="text-decoration:none;display:block">
         <div class="exc-img">
-          <img src="https://images.unsplash.com/photo-1476900543704-4312b650a549?w=700" alt="Refuge tortues marines">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=700" alt="Refuge tortues marines">
           <div class="exc-img-ov"></div>
           <span class="exc-dur"><i data-lucide="clock" class="lucide-icon"></i> 1 heure</span>
           <span class="exc-loc-tag">Agbanakin</span>

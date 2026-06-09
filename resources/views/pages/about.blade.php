@@ -87,7 +87,7 @@
 .diff-card:hover::before{transform:scaleX(1)}
 .diff-ic{font-size:2.4rem;margin-bottom:1.2rem;display:block}
 .diff-title{font-family:var(--f1);font-size:1.5rem;font-weight:600;color:#fff;margin-bottom:.8rem}
-.diff-desc{font-size:.9rem;color:#1a3a50;line-height:1.78}
+.diff-desc{font-size:.9rem;color:#ffffff;line-height:1.78}
 
 /* ── THÉO — LE FONDATEUR ───────────────────────────────────── */
 .theo-section{background:#fafcfe;padding:7rem 0}
@@ -102,14 +102,14 @@
 .theo-text h2{font-family:var(--f1);font-size:clamp(2rem,3.5vw,3.3rem);color:var(--dark);letter-spacing:-.025em;line-height:1.1;margin-bottom:1.2rem}
 .theo-text p{font-size:1rem;color:#1a3a50;line-height:1.88;margin-bottom:1.2rem}
 .theo-feats{display:flex;flex-direction:column;gap:.65rem;margin:2rem 0}
-.tf-item{display:flex;align-items:flex-start;gap:.8rem;font-size:.94rem;color:#fff;line-height:1.6}
+.tf-item{display:flex;align-items:flex-start;gap:.8rem;font-size:.94rem;color:#000000;line-height:1.6}
 .tf-dot{width:22px;height:22px;min-width:22px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));display:flex;align-items:center;justify-content:center;margin-top:1px;font-size:.65rem;color:#fff;flex-shrink:0}
 
 /* ── ÉQUIPE ────────────────────────────────────────────────── */
 .equipe-section{background:var(--dark2);padding:7rem 0}
 .equipe-intro{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;margin-bottom:5rem}
 .equipe-intro h2{font-family:var(--f1);font-size:clamp(2rem,3.5vw,3.3rem);color:#fff;letter-spacing:-.025em;line-height:1.1}
-.equipe-intro p{font-size:1rem;color:#1a3a50;line-height:1.85}
+.equipe-intro p{font-size:1rem;color:#ffffff;line-height:1.85}
 .team-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.2rem}
 .team-card{background:rgba(255,255,255,.04);border:1px solid rgba(110,193,228,.1);border-radius:22px;overflow:hidden;transition:.4s var(--ease);text-align:center}
 .team-card:hover{transform:translateY(-8px);box-shadow:0 22px 50px rgba(0,0,0,.3);border-color:rgba(110,193,228,.28)}
@@ -175,15 +175,15 @@
       <span class="ci-lbl">Année de fondation</span>
     </div>
     <div class="ci-item" data-r="up" data-d="2">
-      <span class="ci-val">+10</span>
+      <span class="ci-val">10</span>
       <span class="ci-lbl">Ans d'expérience</span>
     </div>
     <div class="ci-item" data-r="up" data-d="3">
-      <span class="ci-val">6</span>
+      <span class="ci-val">06</span>
       <span class="ci-lbl">Types d'hébergements</span>
     </div>
     <div class="ci-item" data-r="up" data-d="4">
-      <span class="ci-val">8</span>
+      <span class="ci-val">08</span>
       <span class="ci-lbl">Membres d'équipe</span>
     </div>
   </div>
@@ -256,7 +256,7 @@
     <div class="tc mb8" data-r="up">
       <div class="sec-lbl" style="justify-content:center;color:var(--teal)">Nos singularités</div>
       <h2 style="font-family:var(--f1);font-size:clamp(2rem,4vw,3.5rem);color:#fff;letter-spacing:-.025em;line-height:1.1">Ce qui nous différencie</h2>
-      <p style="font-size:1rem;color:#1a3a50;max-width:520px;margin:1rem auto 0;line-height:1.8">Trois atouts qui font de Chez Théo les Bains un lieu unique dans toute la région de Possotomé.</p>
+      <p style="font-size:1rem;color:#ffffff;max-width:520px;margin:1rem auto 0;line-height:1.8">Trois atouts qui font de Chez Théo les Bains un lieu unique dans toute la région de Possotomé.</p>
     </div>
     <div class="diff-grid">
       <div class="diff-card" data-r="scale" data-d="1">
@@ -334,7 +334,7 @@
 
     @php
     $team = [
-      ['name'=>'Thomas',   'role'=>'Gérant',                  'img'=>'1500648767791-d927b2f42e52'],
+      ['name'=>'Thomas',   'role'=>'Gérant',                  'img'=>'1472099645785-5658abf4ff4e'],
       ['name'=>'Wahourou', 'role'=>'Chef Cuisinier',           'img'=>'1472099645785-5658abf4ff4e'],
       ['name'=>'Monica',   'role'=>'Responsable service client','img'=>'1438761681033-6461ffad8d80'],
       ['name'=>'Denis',    'role'=>'Guide',                    'img'=>'1507003211169-0a1dd7228f2d'],

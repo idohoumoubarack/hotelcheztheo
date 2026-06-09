@@ -11,8 +11,9 @@
   const loader = document.getElementById('page-loader');
   if (loader) {
     window.addEventListener('load', () => {
-      setTimeout(() => loader.classList.add('loaded'), 1600);
+      setTimeout(() => loader.classList.add('loaded'), 300);
     });
+    setTimeout(() => loader.classList.add('loaded'), 700);
   }
 
   // ──────────────────────────────────────────────────────────

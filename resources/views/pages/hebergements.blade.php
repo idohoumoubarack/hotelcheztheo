@@ -31,7 +31,7 @@
 /* ── TABS ──────────────────────────────────────────────────── */
 .tabs-wrap{padding:3rem 0 0}
 .tabs-nav{display:flex;align-items:center;gap:.5rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(110,193,228,.12);margin-bottom:3.5rem;flex-wrap:wrap}
-.tab-btn{font-family:var(--f3);font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;padding:.55rem 1.3rem;border-radius:999px;color:#fff;cursor:pointer;transition:.2s ease;border:1.5px solid transparent;background:none}
+.tab-btn{font-family:var(--f3);font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;padding:.55rem 1.3rem;border-radius:999px;color:#000000;cursor:pointer;transition:.2s ease;border:1.5px solid transparent;background:none}
 .tab-btn:hover{color:var(--teal);background:var(--teal-xlight)}
 .tab-btn.active{background:linear-gradient(135deg,var(--teal),var(--teal-dark));color:#fff;border-color:transparent;box-shadow:0 4px 16px var(--teal-glow)}
 

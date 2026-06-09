@@ -28,7 +28,7 @@
 .hero-scroll{position:absolute;bottom:2rem;left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:.4rem;font-family:var(--f3);font-size:.58rem;text-transform:uppercase;letter-spacing:.3em;color:#fff;cursor:pointer}
 .scroll-line{width:1px;height:46px;background:linear-gradient(to bottom,var(--teal),transparent);animation:sl 2s ease-in-out infinite}
 @keyframes sl{0%,100%{opacity:.5}50%{opacity:1;transform:scaleY(.65)}}
-.hero-stats{position:absolute;bottom:6rem;left:50%;transform:translateX(-50%);z-index:2;display:flex;gap:3rem;align-items:center}
+.hero-stats{position:absolute;bottom:1rem;left:50%;transform:translateX(-50%);z-index:2;display:flex;gap:3rem;align-items:center}
 .hs-item{text-align:center}
 .hs-num{font-family:var(--f1);font-size:2rem;font-weight:700;color:var(--teal);line-height:1;display:block}
 .hs-lbl{font-family:var(--f3);font-size:.58rem;text-transform:uppercase;letter-spacing:.2em;color:rgba(255,255,255,.42);display:block;margin-top:.3rem}
@@ -109,7 +109,7 @@
 .menu-preview{margin:1.5rem 0;display:flex;flex-direction:column;gap:.6rem}
 .mp-item{display:flex;align-items:center;justify-content:space-between;padding:.7rem 1rem;border-radius:10px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);transition:.2s ease}
 .mp-item:hover{background:rgba(110,193,228,.08);border-color:rgba(110,193,228,.2)}
-.mp-name{font-family:var(--f1);font-size:1.1rem;color:#08131e}
+.mp-name{font-family:var(--f1);font-size:1.1rem;color:#ffffff}
 .mp-dots{flex:1;height:1px;border-top:1px dotted rgba(255,255,255,.12);margin:0 .8rem}
 .mp-price{font-family:var(--f3);font-size:.75rem;font-weight:700;color:var(--teal);letter-spacing:.05em}
 
@@ -147,7 +147,7 @@
 .av:hover{box-shadow:0 16px 44px rgba(110,193,228,.18);transform:translateY(-6px);border-color:var(--teal-light)}
 .av-stars{display:flex;gap:.15rem;margin-bottom:.9rem;color:#f5a623;font-size:.88rem}
 .av-q{font-family:var(--f1);font-size:4rem;color:var(--teal-xlight);line-height:.6;margin-bottom:.3rem}
-.av-text{font-size:.91rem;color:#fff;line-height:1.78;font-style:italic;margin-bottom:1.4rem}
+.av-text{font-size:.91rem;color:#030101;line-height:1.78;font-style:italic;margin-bottom:1.4rem}
 .av-user{display:flex;align-items:center;gap:.75rem}
 .av-ava{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));display:flex;align-items:center;justify-content:center;font-family:var(--f1);font-size:1rem;font-weight:700;color:#fff;flex-shrink:0}
 .av-name{font-family:var(--f3);font-size:.8rem;font-weight:700;color:var(--dark)}
@@ -172,8 +172,10 @@
 .sec-lbl::before{content:'';width:28px;height:1.5px;background:linear-gradient(90deg,var(--teal),var(--teal-light));flex-shrink:0}
 .sec-title{font-family:var(--f1);letter-spacing:-.025em;line-height:1.1;margin-bottom:1.2rem;color:var(--dark)}
 .sec-title.w{color:#fff}
-.sec-desc{font-size:1.04rem;color:#1a3a50;line-height:1.83;max-width:560px}
-.sec-desc.w{color:#fff}
+.sec-desc{font-size:1.04rem;color:#ffffff;line-height:1.83;max-width:560px}
+.sec-desc.w{color:#640f0f}
+
+
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--f3);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.2em;padding:.9rem 2.2rem;border-radius:999px;transition:all .4s var(--spring);cursor:pointer;border:none;white-space:nowrap}
 .btn-p{background:linear-gradient(135deg,var(--teal),var(--teal-dark));color:#fff;box-shadow:0 6px 26px var(--teal-glow)}
 .btn-p:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 12px 42px var(--teal-glow);color:#fff}
@@ -216,7 +218,7 @@
     <div class="hero-btns">
       <a href="{{ route('hebergements.index') }}" class="btn btn-p btn-lg">Voir les hébergements</a>
       <a href="{{ route('bains.index') }}" class="btn btn-ow btn-lg">
-        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4V8z"/></svg>
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.9" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4V8z"/></svg>
         Découvrir
       </a>
     </div>
@@ -225,11 +227,11 @@
   <div class="hero-stats">
     <div class="hs-item"><span class="hs-num">28€</span><span class="hs-lbl">Nuit depuis</span></div>
     <div class="hs-sep"></div>
-    <div class="hs-item"><span class="hs-num">6</span><span class="hs-lbl">Types d'héberg.</span></div>
+    <div class="hs-item"><span class="hs-num">06</span><span class="hs-lbl">Types d'héberg.</span></div>
     <div class="hs-sep"></div>
     <div class="hs-item"><span class="hs-num">100%</span><span class="hs-lbl">Naturel</span></div>
     <div class="hs-sep"></div>
-    <div class="hs-item"><span class="hs-num">4.0★</span><span class="hs-lbl">Petit Futé</span></div>
+    <div class="hs-item"><span class="hs-num">4.0</span><span class="hs-lbl">Petit Futé</span></div>
   </div>
 
   <div class="hero-scroll" onclick="document.getElementById('services-band').scrollIntoView({behavior:'smooth'})">
@@ -253,10 +255,10 @@
   <div class="bf">
     <label>Voyageurs</label>
     <select>
-      <option>1 adulte</option>
-      <option>2 adultes</option>
-      <option>2 adultes, 1 enfant</option>
-      <option>2 adultes, 2 enfants</option>
+      <option>01 adulte</option>
+      <option>02 adultes</option>
+      <option>02 adultes, 01 enfant</option>
+      <option>02 adultes, 02 enfants</option>
     </select>
   </div>
   <div class="bsep"></div>
@@ -315,7 +317,7 @@
         <div class="rc-body">
           <h3 class="rc-name">Chambre Standard</h3>
           <div class="rc-meta">
-            <span class="rc-m"><i data-lucide="users"></i> 2 pers.</span>
+            <span class="rc-m"><i data-lucide="users"></i> 02 pers.</span>
             <span class="rc-m"><i data-lucide="house" class="lucide-icon"></i> Hôtel</span>
             <span class="rc-m"><i data-lucide="leaf" class="lucide-icon"></i> Vue jardin</span>
           </div>
@@ -381,10 +383,10 @@
 <section id="stats">
   <div class="wrap">
     <div class="stats-grid">
-      <div class="stat-b" data-r="scale" data-d="1"><span class="stat-n">30+</span><span class="stat-l">Années d'expérience</span></div>
-      <div class="stat-b" data-r="scale" data-d="2"><span class="stat-n">6</span><span class="stat-l">Types d'hébergements</span></div>
-      <div class="stat-b" data-r="scale" data-d="3"><span class="stat-n">3</span><span class="stat-l">Sources thermales</span></div>
-      <div class="stat-b" data-r="scale" data-d="4"><span class="stat-n">4.0★</span><span class="stat-l">Note Petit Futé</span></div>
+      <div class="stat-b" data-r="scale" data-d="1"><span class="stat-n">30</span><span class="stat-l">Années d'expérience</span></div>
+      <div class="stat-b" data-r="scale" data-d="2"><span class="stat-n">06</span><span class="stat-l">Types d'hébergements</span></div>
+      <div class="stat-b" data-r="scale" data-d="3"><span class="stat-n">03</span><span class="stat-l">Sources thermales</span></div>
+      <div class="stat-b" data-r="scale" data-d="4"><span class="stat-n">4.0</span><span class="stat-l">Note Petit Futé</span></div>
     </div>
   </div>
 </section>
@@ -401,7 +403,7 @@
           <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=600" alt="Sources thermales naturelles">
         </div>
         <div class="ws-badge">
-          <span class="wsb-n">3</span>
+          <span class="wsb-n">03</span>
           <span class="wsb-l">Sources<br>thermales</span>
         </div>
       </div>
