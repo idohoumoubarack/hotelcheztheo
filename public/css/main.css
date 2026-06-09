@@ -199,7 +199,7 @@ p  { font-size: 1.02rem; line-height: 1.82; color: #ffffff; } /* gray = #fff sur
 .sec-label::before { content: ''; width: 28px; height: 1.5px; background: linear-gradient(90deg, var(--teal), var(--teal-light)); flex-shrink: 0; }
 .sec-title         { font-family: var(--f1); letter-spacing: -.025em; line-height: 1.1; margin-bottom: 1.2rem; color: var(--dark); }
 .sec-title.white   { color: #fff; }
-.sec-desc          { font-size: 1.04rem; color: #ffffff; line-height: 1.83; max-width: 560px; }
+.sec-desc          { font-size: 1.04rem; color: #000000; line-height: 1.83; max-width: 560px; }
 .sec-desc.white    { color: #fff; }
 
 /* ── HERO ───────────────────────────────────────────────────── */
@@ -850,7 +850,7 @@ p  { font-size: 1.02rem; line-height: 1.82; color: #ffffff; } /* gray = #fff sur
 .contact-form p,
 .espace-desc p,
 .about-intro p {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   opacity: .75;
 }
 /* Petits labels gris sur cartes blanches */

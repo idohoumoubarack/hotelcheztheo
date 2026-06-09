@@ -92,7 +92,7 @@
 .ic-row{display:flex;align-items:center;justify-content:space-between;padding:.75rem 0;border-bottom:1px solid rgba(255,255,255,.06)}
 .ic-row:last-child{border-bottom:none}
 .ic-key{font-family:var(--f3);font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:rgba(255,255,255,.35);display:flex;align-items:center;gap:.5rem}
-.ic-key [data-lucide]{width:13px;height:13px;stroke:rgba(255,255,255,.35)}
+.ic-key [data-lucide]{width:13px;height:13px;stroke:rgba(255,255,255,.35) !important}
 .ic-val{font-size:.88rem;font-weight:600;color:#fff}
 .ic-val.teal{color:var(--teal)}
 .ic-divider{height:1px;background:rgba(255,255,255,.06);margin:1.2rem 0}

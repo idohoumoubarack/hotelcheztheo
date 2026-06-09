@@ -98,7 +98,7 @@
 .h-icon{display:block;margin:0 auto .8rem;width:32px;height:32px;stroke:var(--teal);stroke-width:1.5}
 .h-title{font-family:var(--f3);font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.2em;color:var(--teal);display:block;margin-bottom:.5rem}
 .h-time{font-family:var(--f1);font-size:1.3rem;color:#fff;display:block;margin-bottom:.2rem}
-.h-note{font-size:.78rem;color:rgba(255,255,255,.35);line-height:1.5}
+.h-note{font-size:.78rem;color:rgb(255, 255, 255);line-height:1.5}
 
 /* ── RESPONSIVE ────────────────────────────────────────────── */
 @media(max-width:1024px){.contact-grid{grid-template-columns:1fr;gap:3rem}}

@@ -15,7 +15,7 @@ use App\Http\Controllers\ReservationController;
 
 Route::get("/",                   [HomeController::class,        "index"])->name("home");
 Route::get("/hebergements",       [HebergementController::class, "index"])->name("hebergements.index");
-Route::get("/hebergements/{slug}",[HebergementController::class, "show"])->name("hebergements.show");
+Route::get("/hebergement/{slug}",[HebergementController::class, "show"])->name("hebergements.show");
 Route::get("/bains",              [BainsController::class,       "index"])->name("bains.index");
 Route::get("/restaurant",         [RestaurantController::class,  "index"])->name("restaurant.index");
 Route::get("/excursions",         [ExcursionController::class,   "index"])->name("excursions.index");

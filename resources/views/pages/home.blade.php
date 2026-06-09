@@ -95,7 +95,7 @@
 .wsb-n{font-family:var(--f1);font-size:2.3rem;font-weight:700;color:var(--teal);line-height:1;display:block}
 .wsb-l{font-family:var(--f3);font-size:.57rem;font-weight:600;text-transform:uppercase;letter-spacing:.17em;color:#fff;display:block;margin-top:.28rem}
 .wellness-list{margin:1.5rem 0;display:flex;flex-direction:column;gap:.7rem}
-.wli{display:flex;align-items:flex-start;gap:.75rem;font-size:.94rem;color:#fff;line-height:1.6}
+.wli{display:flex;align-items:flex-start;gap:.75rem;font-size:.94rem;color:#000000;line-height:1.6}
 .wli-dot{width:20px;height:20px;min-width:20px;border-radius:50%;background:linear-gradient(135deg,var(--teal),var(--teal-dark));display:flex;align-items:center;justify-content:center;margin-top:2px;font-size:.6rem;color:#fff;flex-shrink:0}
 
 /* Restaurant */
@@ -173,7 +173,7 @@
 .sec-title{font-family:var(--f1);letter-spacing:-.025em;line-height:1.1;margin-bottom:1.2rem;color:var(--dark)}
 .sec-title.w{color:#fff}
 .sec-desc{font-size:1.04rem;color:#ffffff;line-height:1.83;max-width:560px}
-.sec-desc.w{color:#640f0f}
+.sec-desc.w{color:#ffffff}
 
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--f3);font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.2em;padding:.9rem 2.2rem;border-radius:999px;transition:all .4s var(--spring);cursor:pointer;border:none;white-space:nowrap}
@@ -510,7 +510,7 @@
     <div class="gallery-mosaic">
       <div class="g-i"><img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=900" alt="Vue lac Ahémé"></div>
       <div class="g-i"><img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600" alt="Chambre Chez Théo"></div>
-      <div class="g-i"><img src="https://images.unsplash.com/photo-1540555700478-4be290a3d295?w=600" alt="Piscine thermale"></div>
+      <div class="g-i"><img src="https://th.bing.com/th/id/R.2bb0d129f82c878aa3b2c2d694f0bf88?rik=SXoAiPr7ddfQpA&pid=ImgRaw&r=0?w=600" alt="Piscine thermale"></div>
       <div class="g-i"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600" alt="Restaurant sur pilotis"></div>
       <div class="g-i"><img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600" alt="Bains thermaux"></div>
     </div>
